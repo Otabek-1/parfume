@@ -1,0 +1,120 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root {
+    --Pure-White: #FFF;
+    --cream-bg: #F2EAE2;
+    --montserrat: "Montserrat";
+    --fraunces: "Fraunces";
+}
+
+body {
+    background: var(--cream-bg);
+}
+
+.box {
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    background: var(--Pure-White);
+    margin: 175px 420px;
+    display: flex;
+    overflow: hidden;
+}
+
+.left {
+    overflow: hidden;
+    width: 337.694px;
+    height: 450px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: #6C7289;
+    font-family: var(--montserrat);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.title {
+    max-width: 236px;
+    width: 100%;
+    color: #1C232B;
+    font-family: var(--fraunces);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+}
+
+.desc {
+    max-width: 237px;
+    width: 100%;
+    color: #6C7289;
+    font-family: var(--montserrat);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 24px;
+    margin-bottom: 29px;
+}
+
+.prices {
+    display: flex;
+    column-gap: 19px;
+    align-items: center;
+}
+
+.prev-price {
+    color: #3D8168;
+    font-family: var(--fraunces);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+}
+
+.new-price {
+    color: #6C7289;
+    font-family: var(--montserrat);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    /* 176.923% */
+    text-decoration: line-through;
+}
+
+.purchase {
+    color: #FFF;
+    font-family: var(--montserrat);
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #3D8168;
+  
+    width: 236px;
+    height: 48px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 11px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+

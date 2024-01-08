@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Fraunces";
+    src: url(../Fraunces/static/Fraunces_144pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url(../Fraunces/static/Fraunces_144pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../Montserrat/static/Montserrat-Regular.ttf);
+}
